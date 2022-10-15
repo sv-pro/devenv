@@ -14,20 +14,31 @@ svlasov/devenv
 ```
 
 ## What's inside?
+- [x] password-less **sudo**
+- [x] [bash-it](https://github.com/Bash-it/bash-it): 
+- [x] direnv
+- [x] apt packages
+    - [x] popular prerequisites 
+        - [x] software-properties-common
+        - [x] build-essential
+    - [x] some utilities
+        - [x] preinstalled by Docker team
+            - [x] sudo
+            - [x] git
+            - [x] ssh
+            - [x] nano
+            - [x] htop
+            - [x] curl
+            - [x] wget
+            - [x] ip
+        - [x] installed by me
+            - [x] vim
+            - [x] tree
+            - [x] jq
+            - [x] tmux
 
-- [ ] bash-it
-- [ ] direnv
-- [ ]  apt packages
-    - [ ] popular prerequisites 
-        - [ ] software-properties-common
-        - [ ] build-essential
-    - [ ] some utilities (besides sudo, ssh, gvim, it, curl, wget etc.)
-        - [ ] htop
-        - [ ] tree
-        - [ ] jq
-        - [ ] tmux
-        - [ ] ip
-- [ ] python3 as default python
+- [x] python3 as default python: `sudo update-alternatives --install /usr/bin/python  python /usr/bin/python3 10`
+- [x] pip/pip3 
 - [ ] VSCode server (?)
 
 
