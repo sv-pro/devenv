@@ -7,3 +7,4 @@ source ~/.bashrc
 
 # direnv
 [[ -f ~/.bash_it/custom/direnv.bash ]] && : || echo 'eval "$(direnv hook bash)"' >> ~/.bash_it/custom/direnv.bash 
+bash-it reload
