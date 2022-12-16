@@ -14,3 +14,8 @@
 ```
 winget install --id Microsoft.VisualStudioCode
 ```
+
+# NVM
+```
+winget install --id CoreyButler.NVMforWindows
+```
