@@ -9,3 +9,8 @@
   - [ ] npm+node
   - [ ] Anaconda+fastai+fastapi+jupyter
   - [ ] JDK
+
+# VS Code
+```
+winget install --id Microsoft.VisualStudioCode
+```
