@@ -19,3 +19,8 @@ winget install --id Microsoft.VisualStudioCode
 ```
 winget install --id CoreyButler.NVMforWindows
 ```
+
+# JetBrains
+```
+winget install --id JetBrains.Toolbox
+```
